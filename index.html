@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #firstBlock{
+           display: flex;
+           justify-content: space-between;   
+        }
+        
+       #banner img{
+            
+            width: 100%;
+
+        }
+        #container{
+            display: flex;
+            justify-content: space-between;
+          }
+
+        .divSibling>img {
+            height: 100px;
+
+          }
+          #small-banner{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            
+            padding: 10px 0px 0px 10px;
+            margin: auto;
+            
+            border-radius: 5px;
+            background-color: rgb(254,220,147);
+            width: 50%;
+            
+          } 
+          #small-banner>button{
+            width: 40%; 
+            margin-left: 190px;
+            background-color: rgb(209,18,66);
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+          }
+          .banner-p{
+            width: 140%;
+          }
+          hr{
+           width: 197%;
+          }
+    </style>
+    
+</head>
+<body>
+    
+    <div id="firstBlock"> 
+<!---circular images-->
+
+
+    </div>
+    <div id="container"></div>
+
+    
+    <div id="banner"><img src="https://d2407na1z3fc0t.cloudfront.net/Slider/banner_62a882919ddbf" alt="discount of 50%"> </div>
+    <div id="small-banner"> 
+        <img src="https://www.licious.in/img/rebranding/loyalty_licious_logo.svg" alt="logo"> 
+        <button>Join Now</button>
+        <div class="divunderdiv"><hr><p class="banner-p">Enjoy unlimited free delivery & perks crafted for true meat lovers</p></div>
+    
+    </div>
+    <!-- Need to create expanding div -->
+    <div class="know-thelicicuos-way">
+     <h2> Know the licious way
+     </h2>
+     <ul>
+        <li>
+            "Premium"
+            <p>Produce</p>
+        </li>
+        <li>
+            "World class Central"
+            <p>Production Unit</p>
+        </li>
+        <li>
+            "150 Quality"
+            <p>Checks</p>
+        </li>
+        <li>
+            "Delivered Fresh"
+            <p>Everyday</p>
+        </li>
+        <li>
+            "Extraordinary"
+            <p>Cooking</p>
+        </li>
+     </ul>
+    </div>
+
+    <div class="bank"> 
+     <img src="https://dao54xqhg9jfa.cloudfront.net/OMS-StaticBanner/2c1b070c-f121-773c-abe3-b95d2f869c10/original/staticweb.jpg?format=webp" alt="">
+    </div>
+    
+    
+</body>
+</html>
+<script>
+    let imgArr = [
+        {
+        image_url:"https://dao54xqhg9jfa.cloudfront.net/OMS-Category/59724ce1-1f3d-f1f4-c688-c05a0005c8de/original/Circle@3x-16.png?format=webp",
+        sub_head:"Today's Deal"
+    },
+    {
+        image_url: "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/c777a59e-f2f7-dd37-9ba0-7f385aed3eb3/original/Circle@3x.png?format=webp",
+        sub_head: "Chicken"
+    },
+    {
+        image_url: "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/e13f894d-d51e-beea-4ef5-aab1a193d373/original/Circle@3x-13.png?format=webp",
+        sub_head: "Fish & Seafood"
+    },
+    {
+        image_url: "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/4d9c0c72-c070-dd56-4a2e-9fbfe8230f42/original/Circle@3x-1.png?format=webp",
+        sub_head: "Mutton"
+    },
+    {
+        image_url: "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/450e3217-59ac-8145-3bee-296e729f03bf/original/Circle@3x-17.png?format=webp",
+        sub_head: "Ready to Cook"
+    },
+    {
+        image_url: "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/f7ef9035-9baa-b9b5-d56d-97059ffe6c39/original/Circle@3x-18.png?format=webp",
+        sub_head: "Prawns"
+    },
+    {
+        image_url: "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/7b500ec8-8001-436b-74ca-430fd4e2ff0b/original/Circle@3x-14.png?format=webp",
+        sub_head: "Spreads"
+    },
+    {
+        image_url: "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/27cf80b9-2a8f-d70d-7695-8142c85e5bcb/original/Circle@3x-2.png?format=webp",
+        sub_head: "Eggs"
+    },
+    {
+        image_url: "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/c7cde9d8-4e31-8ea5-79a4-cce48c7ed109/original/Circle@3x-15.png?format=webp",
+        sub_head: "Kebabs & Tandoor"
+    },
+    {
+        image_url: "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/3130cc9b-71e5-ff33-d413-9fcda531afac/original/Circle@3x-20.png?format=webp",
+        sub_head: "Combos"
+    },
+    {
+        image_url: "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/90882875-962a-8e96-6c45-f7d6492abd3b/original/Circle@3x-16.png?format=webp",
+        sub_head: "Bestsellers"
+    },
+    {
+        image_url: "https://dao54xqhg9jfa.cloudfront.net/OMS-Category/6455adfa-c60e-6c6a-9a60-a9a291bf6121/original/Circle@3x-17.png?format=webp",
+        sub_head: "Snacks"
+    }
+
+
+]
+    imgArr.forEach(function(elem){
+     let box = document.createElement("div");
+     box.setAttribute("class","divSibling")
+     
+    let image = document.createElement("img");
+    let text = document.createElement("p");
+    text.innerText =  elem.sub_head
+    image.setAttribute("src", elem.image_url);
+    box.append(image)
+    document.querySelector("#firstBlock").append(box);
+    document.querySelector("#container").append(text);
+    
+
+     })
+
+
+</script>
